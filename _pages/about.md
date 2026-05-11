@@ -13,7 +13,7 @@ profile:
     <p>Peking University</p>
     <p>Beijing, China</p>
 
-selected_papers: true 
+selected_papers: true
 social: true
 
 announcements:
