@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research projects in efficient foundation models and video generation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Education, research experience, publications, projects, and honors.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -72,7 +72,73 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-crossdistill-balancing-quality-and-diversity",
+        
+          title: "CrossDistill: Balancing Quality and Diversity",
+        
+        description: "Trajectory-level hybrid few-step distillation for high-quality and diverse generation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/crossdistill/";
+          
+        },
+      },{id: "post-rola-rotary-positioned-low-rank-linear-attention",
+        
+          title: "RoLA: Rotary-Positioned Low-Rank Linear Attention",
+        
+        description: "A rotary-positioned low-rank linear attention branch for efficient Diffusion Transformers.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/rola/";
+          
+        },
+      },{id: "post-ropeslr-sparse-low-rank-attention-for-diffusion-transformers",
+        
+          title: "RoPeSLR: Sparse-Low-Rank Attention for Diffusion Transformers",
+        
+        description: "3D RoPE-driven sparse-low-rank attention for efficient Diffusion Transformers.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ropeslr/";
+          
+        },
+      },{id: "post-cr-net-cross-layer-low-rank-structure",
+        
+          title: "CR-Net: Cross-Layer Low-Rank Structure",
+        
+        description: "Scaling parameter-efficient LLM training through cross-layer low-rank structure.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/cr-net/";
+          
+        },
+      },{id: "post-mixture-of-distributions-matters",
+        
+          title: "Mixture of Distributions Matters",
+        
+        description: "Dynamic sparse attention for efficient video Diffusion Transformers.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mixture-of-distributions-matters/";
+          
+        },
+      },{id: "post-misa-memory-efficient-llm-optimization",
+        
+          title: "MISA: Memory-Efficient LLM Optimization",
+        
+        description: "Module-wise importance sampling for memory-efficient LLM pre-training and fine-tuning.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/misa/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -496,6 +562,36 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-cr-net",
+          title: 'CR-Net',
+          description: "Cross-layer low-rank structure for parameter-efficient LLM training.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cr-net/";
+            },},{id: "projects-crossdistill",
+          title: 'CrossDistill',
+          description: "Trajectory-level hybrid few-step distillation for quality and diversity.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/crossdistill/";
+            },},{id: "projects-misa",
+          title: 'MISA',
+          description: "Memory-efficient LLM optimization with module-wise importance sampling.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/misa/";
+            },},{id: "projects-mixture-of-distributions-matters",
+          title: 'Mixture of Distributions Matters',
+          description: "Dynamic sparse attention for efficient video Diffusion Transformers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mixture-of-distributions-matters/";
+            },},{id: "projects-rola",
+          title: 'RoLA',
+          description: "Rotary-positioned low-rank linear attention for efficient Diffusion Transformers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rola/";
+            },},{id: "projects-ropeslr",
+          title: 'RoPeSLR',
+          description: "3D RoPE-driven sparse-low-rank attention for efficient Diffusion Transformers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ropeslr/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
@@ -507,13 +603,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -521,11 +610,11 @@ ninja.data = [{
           window.open("mailto:%79%75%78%69%6C%69%75%36%36%36@%73%74%75.%70%6B%75.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/yuxiliu6666", "_blank");
         },
       },{
         id: 'social-rss',
@@ -533,20 +622,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
