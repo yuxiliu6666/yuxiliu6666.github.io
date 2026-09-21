@@ -5,7 +5,7 @@ title: blog
 nav: true
 nav_order: 1
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 5
@@ -56,7 +56,8 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign research_posts = site.posts | where_exp: "post", "post.categories contains 'research'" %}
+{% assign featured_posts = research_posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -106,7 +107,7 @@ pagination:
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts %}
+      {% assign postlist = research_posts %}
     {% endif %}
 
     {% for post in postlist %}

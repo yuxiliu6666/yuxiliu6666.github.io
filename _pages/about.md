@@ -21,14 +21,18 @@ announcements:
   enabled: false # 暂时关闭以防出现模板自带的假新闻
 
 latest_posts:
-  enabled: false # 暂时关闭博客
+  enabled: true
 ---
 
-Hi! I am Yuxi Liu (刘禹希). I am currently a 3rd-year Ph.D. student in Data Science at the [Center for Machine Learning Research](https://cmlr.pku.edu.cn/), Peking University (2023-2028), under the supervision of [Prof. Kun Yuan](https://kunyuan827.github.io/). Prior to this, I obtained my B.S. degree in Mathematics from Wuhan University (2019-2023), ranking 2/32 in the Mathematics Base Class.
+Hi! I am Yuxi Liu (刘禹希). I am currently a 3rd-year Ph.D. student in Data Science at the [Center for Machine Learning Research](https://cmlr.pku.edu.cn/), Peking University (2023-2028), under the supervision of [Prof. Kun Yuan](https://kunyuan827.github.io/). I am also a research intern at Alibaba Tongyi Wanxiang Lab (May 2026-present). Prior to this, I obtained my B.S. degree in Mathematics from Wuhan University (2019-2023), ranking 2/32 in the Mathematics Base Class.
 
-My research mainly focuses on **efficient training and inference frameworks/algorithms for LLM/DiT**. I have served as a reviewer for top-tier conferences including ICML, NeurIPS, ICLR, and CVPR.
+I am currently interested in **Multimodal Large Language Models, Video Generation, and Video World Models**. I have served as a reviewer for top-tier conferences including ICML, NeurIPS, ICLR, and CVPR.
 
 **I'm always open to research discussions and collaborations. Feel free to contact me at [yuxiliu666@stu.pku.edu.cn](mailto:yuxiliu666@stu.pku.edu.cn) if you are interested.**
+
+## 💼 Experience
+
+- **Research Intern**, Alibaba Tongyi Wanxiang Lab, May 2026 - Present
 
 ## 📖 Education
 

@@ -4,7 +4,7 @@
 
 title: Yuxi Liu # the website title (if blank, full name will be used instead)
 first_name: Yuxi
-middle_name: 
+middle_name:
 last_name: Liu
 contact_note: >
   Ph.D. Student at Center for Machine Learning Research, Peking University.
@@ -36,7 +36,7 @@ repo_trophies:
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
 # External service URLs for repository page
-# To use a different instance or service for displaying GitHub stats 
+# To use a different instance or service for displaying GitHub stats
 # and trophies,
 # update these URLs. These are used in the repository templates.
 external_services:
@@ -92,8 +92,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Yuxi's Blog # blog_name will be displayed in your blog page
-blog_description: Research and Thoughts.
+blog_name: Yuxi's Research Blog # blog_name will be displayed in your blog page
+blog_description: Notes on efficient foundation models, video generation, and video world models.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -106,7 +106,7 @@ related_blog_posts:
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to 
+# Follow instructions on https://giscus.app/ to
 # setup for your repo to fill out the information below.
 giscus:
   repo: # <your-github-user-name>/<your-github-repo-name>
@@ -272,8 +272,8 @@ jekyll-archives:
       categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["llm", "diffusion-transformers", "video-generation", "efficient-training"] # these tags will be displayed on the front page of your blog
+display_categories: ["research"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
