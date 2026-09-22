@@ -24,7 +24,7 @@ latest_posts:
   enabled: true
 ---
 
-Hi! I am Yuxi Liu (刘禹希). I am currently a 3rd-year Ph.D. student in Data Science at the [Center for Machine Learning Research](https://cmlr.pku.edu.cn/), Peking University (2023-2028), under the supervision of [Prof. Kun Yuan](https://kunyuan827.github.io/). I am also a research intern at Alibaba Tongyi Wanxiang Lab (May 2026-present). Prior to this, I obtained my B.S. degree in Mathematics from Wuhan University (2019-2023), ranking 2/32 in the Mathematics Base Class.
+Hi! I am Yuxi Liu (刘禹希). I am currently a 3rd-year Ph.D. student in Data Science at the [Center for Machine Learning Research](https://cmlr.pku.edu.cn/), Peking University (2023-2028), under the supervision of [Prof. Kun Yuan](https://kunyuan827.github.io/). I am also a research intern at Alibaba Tongyi Wanxiang Lab (May 2026-present). Prior to this, I obtained my B.S. degree in Mathematics from Wuhan University (2019-2023).
 
 I am currently interested in **Multimodal Large Language Models, Video Generation, and Video World Models**. I have served as a reviewer for top-tier conferences including ICML, NeurIPS, ICLR, and CVPR.
 
@@ -45,7 +45,7 @@ I am currently interested in **Multimodal Large Language Models, Video Generatio
 - **Outstanding Graduate**, Wuhan University, 2023
 - **National First Prize (1st in Hubei Province)**, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM), 2021
 - **Meritorious Winner (M Prize)**, Mathematical Contest in Modeling (MCM/ICM), 2021
-- **Second Prize (Hubei Province)**, Chinese Mathematics Competitions (CMC), 2021
+- **First Prize (Hubei Province)**, Chinese Mathematics Competitions (CMC), 2021
 - **Excellent Scholarship for Math Majors (Class I)**, Wuhan University, 2021
 - **First-class Scholarship**, Wuhan University, 2020
 - **Bronze Medal**, Chinese Mathematical Olympiad (CMO), 2018

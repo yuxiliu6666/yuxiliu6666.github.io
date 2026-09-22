@@ -34,8 +34,6 @@ cv:
         studyType: B.S.
         start_date: 2019
         end_date: 2023
-        highlights:
-          - Ranked 2/32 in the Mathematics Base Class
 
     Experience:
       - company: Alibaba Tongyi Wanxiang Lab
@@ -154,7 +152,7 @@ cv:
         date: 2021
         awarder: Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling
 
-      - title: Second Prize, Chinese Mathematics Competitions
+      - title: First Prize, Chinese Mathematics Competitions
         date: 2021
         awarder: Hubei Province
 
