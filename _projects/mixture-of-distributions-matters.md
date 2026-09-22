@@ -2,7 +2,7 @@
 layout: page
 title: Mixture of Distributions Matters
 description: Dynamic sparse attention for efficient video Diffusion Transformers.
-importance: 4
+importance: 5
 category: research
 github: https://github.com/pkumelon/MOD-DiT
 ---

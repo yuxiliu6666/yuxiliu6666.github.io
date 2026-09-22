@@ -1,3 +1,16 @@
+@article{liu2026sparkdiffusion,
+  title={SparkDiffusion: Mitigating the High-Sparsity Trap --- A Unified Framework for up to 265x Single-GPU Acceleration of Visual Generation},
+  author={Liu, Yuxi and Li, Haoyu and Zhang, Zekun and Sun, Tengxu and Cai, Yixiang and Li, Jiayong and Xia, Yifei and Liu, Tianle and Ai, Baole and Wang, Ang and Wang, Jiamang and Qu, Lin and Zhang, Kai and Yuan, Kun and Cui, Bin},
+  journal={arXiv preprint},
+  year={2026},
+  arxiv={2609.23153},
+  website={https://sparkdiffusion.github.io/},
+  code={https://github.com/AlibabaResearch/SparkDiffusion},
+  blog={/blog/2026/sparkdiffusion/},
+  abstract={Video diffusion transformers are expensive because attention dominates long spatiotemporal token sequences. We identify the high-sparsity trap: at extreme attention sparsity, step-local training losses keep decreasing while terminal generation quality stagnates or degrades. The trap is one of supervision: the dominant terminal errors originate in the high-noise structure-generation stage, and terminal-aligned training corrects terminal errors that substantially extended step-local training cannot. This yields a simple staging principle: first adapt the sparse architecture into a coarse prior, then correct the terminal distribution. We instantiate the principle as SparkDiffusion, a unified acceleration framework for visual generation that combines a short sparse warm-up, few-step trajectory-mixed distillation, and FP8 quantization with fused kernels. SparkDiffusion sustains 97% attention sparsity with strong visual quality on long-sequence 720P generation across Wan2.1/Wan2.2 backbones and T2V/I2V tasks, and 90% sparsity on Wan2.1-T2V-1.3B-480P. With 3-step CFG-free inference, SparkDiffusion achieves a 265x end-to-end speedup over the 50-step CFG dense baseline for Wan2.1-T2V-14B-720P on a single RTX 5090 (220x on H100), and denoises a Wan2.1-T2V-1.3B-480P video in 1.3s.},
+  selected={true}
+}
+
 @article{liu2026crossdistill,
   title={CrossDistill: Balancing Quality and Diversity via Trajectory-Level Hybrid Few-Step Distillation},
   author={Liu*, Yuxi and Li*, Haoyu and Cai, Yixiang and Sun‡, Tengxu and Zhang, Zekun and Ai, Baole and Wang, Ang and Wang, Jiamang and Qu, Lin and Yuan‡, Kun and Zhang‡, Kai},

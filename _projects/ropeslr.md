@@ -2,7 +2,7 @@
 layout: page
 title: RoPeSLR
 description: 3D RoPE-driven sparse-low-rank attention for efficient Diffusion Transformers.
-importance: 3
+importance: 4
 category: research
 ---
 

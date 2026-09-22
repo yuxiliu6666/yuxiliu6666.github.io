@@ -2,7 +2,7 @@
 layout: page
 title: RoLA
 description: Rotary-positioned low-rank linear attention for efficient Diffusion Transformers.
-importance: 2
+importance: 3
 category: research
 github: https://github.com/AlibabaResearch/SparkDiffusion
 ---

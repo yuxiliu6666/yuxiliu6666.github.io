@@ -2,7 +2,7 @@
 layout: page
 title: CR-Net
 description: Cross-layer low-rank structure for parameter-efficient LLM training.
-importance: 5
+importance: 6
 category: research
 github: https://github.com/KongBoao/CR-Net
 ---

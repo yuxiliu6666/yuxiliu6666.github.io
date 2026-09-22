@@ -2,7 +2,7 @@
 layout: page
 title: MISA
 description: Memory-efficient LLM optimization with module-wise importance sampling.
-importance: 6
+importance: 7
 category: research
 github: https://github.com/pkumelon/MISA
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: CrossDistill
 description: Trajectory-level hybrid few-step distillation for quality and diversity.
-importance: 1
+importance: 2
 category: research
 github: https://github.com/AlibabaResearch/SparkDiffusion
 ---
