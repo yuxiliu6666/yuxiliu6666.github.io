@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-crossdistill-balancing-quality-and-diversity",
+            },{id: "post-sparkdiffusion-mitigating-the-high-sparsity-trap",
+        
+          title: "SparkDiffusion: Mitigating the High-Sparsity Trap",
+        
+        description: "A unified framework for up to 265x single-GPU acceleration of visual generation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/sparkdiffusion/";
+          
+        },
+      },{id: "post-crossdistill-balancing-quality-and-diversity",
         
           title: "CrossDistill: Balancing Quality and Diversity",
         
@@ -229,6 +240,11 @@ ninja.data = [{
           description: "3D RoPE-driven sparse-low-rank attention for efficient Diffusion Transformers.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ropeslr/";
+            },},{id: "projects-sparkdiffusion",
+          title: 'SparkDiffusion',
+          description: "Unified framework for up to 265x single-GPU acceleration of visual generation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sparkdiffusion/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
